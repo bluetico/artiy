@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+shatterisland44@gmail.com
 
     steps:
     - name: Checkout repository
@@ -15,8 +16,8 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.email "xon3iros@gmail.com"
-        git config --global user.name "xONEIROS"
+        git config --global user.email "shatterisland44@gmail.com"
+        git config --global user.name "artiy"
 
     - name: Select Random Sticker
       id: random_sticker
